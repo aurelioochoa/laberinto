@@ -36,8 +36,10 @@
 <p align="center">
 <img src="https://github.com/aurelioochoa/laberinto/blob/mauraMartinez/Graficos/Class-Diagram.png"/>
    </p>
+
 ## How to run the solution  
 1. Go to the [src](src) folder.
+
 2. Compile the solution using the java compiler with the following command in your terminal:
 ```bash
   javac -d ../out main/*.java
