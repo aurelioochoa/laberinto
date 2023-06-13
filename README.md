@@ -30,8 +30,7 @@
 | Maze Exploration       | The player can control a character to navigate through the maze using various modes of transportation such as walking, riding a horse, and sailing in a boat. |
 | Terrain Effects        | Each terrain type in the maze affects the player's movement speed, requiring strategic decisions to optimize navigation.                       |
 | Day and Night Cycle    | The system includes a realistic day and night cycle, with corresponding changes in the visibility and atmosphere of the maze.                  |
-| Tool Utilization       | The player can utilize helpful tools available within the maze to overcome challenges and gain advantages, such as using a flying carpet to traverse mountains. |
-| Maze Visualization     | The system provides a graphical representation of the maze, displaying different terrains and obstacles to enhance the player's immersion and gameplay experience. |
+
 
 ## Class Diagram
 <p align="center">
