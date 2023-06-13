@@ -1,0 +1,135 @@
+@startuml
+
+abstract class Terrain {
+  - passable: boolean
+  + Terrain(passable: boolean)
+  {abstract} + getRepresentation(): String
+}
+
+interface LiquidGround {
+  + getConsistency(): String
+}
+
+interface SolidGround {
+  + getHardness(): String
+}
+
+class Floor {
+  + Floor()
+  + getRepresentation(): String
+}
+
+class Sand {
+  + Sand()
+  + getRepresentation(): String
+}
+
+class Mountain {
+  + Mountain()
+  + getRepresentation(): String
+}
+
+class LowGrass {
+  + LowGrass()
+  + getRepresentation(): String
+}
+
+class MediumGrass {
+  + MediumGrass()
+  + getRepresentation(): String
+}
+
+class HighGrass {
+  + HighGrass()
+  + getRepresentation(): String
+}
+
+class Water {
+  + Water()
+  + getRepresentation(): String
+}
+
+class TurbulentWater {
+  + TurbulentWater()
+  + getRepresentation(): String
+}
+
+SolidGround <|-- Floor
+SolidGround <|-- Sand
+SolidGround <|-- Mountain
+SolidGround <|-- LowGrass
+SolidGround <|-- MediumGrass
+SolidGround <|-- HighGrass
+LiquidGround <|-- Water
+LiquidGround <|-- TurbulentWater
+
+Terrain --|> LiquidGround
+Terrain --|> SolidGround
+
+abstract class Transportation {
+  {abstract} + move(): void
+}
+
+class Walk {
+  + Walk()
+  + move(): void
+}
+
+class RideHorse {
+  + RideHorse()
+  + move(): void
+}
+
+class Sail {
+  + Sail()
+  + move(): void
+}
+
+class FlyingCarpet {
+  + FlyingCarpet()
+  + move(): void
+}
+
+Character <|-- Player
+
+abstract class Character {
+  - panel: GamePanel
+  + x: int
+  + y: int
+  + speed: int
+  + spriteCounter: int
+  + spriteNumber: int
+  + up_sprite_1: BufferedImage
+  + up_sprite_2: BufferedImage
+  + down_sprite_1: BufferedImage
+  + down_sprite_2: BufferedImage
+  + left_sprite_1: BufferedImage
+  + left_sprite_2: BufferedImage
+  + right_sprite_1: BufferedImage
+  + right_sprite_2: BufferedImage
+  + setDefaultValues(): void
+  + update(): void
+  + draw(g2: Graphics2D): void
+}
+
+class Player {
+  - panel: GamePanel
+  - keyHandler: KeyHandler
+  - upPressed: boolean
+  - downPressed: boolean
+  - leftPressed: boolean
+  - rightPressed: boolean
+  + Player(panel: GamePanel, keyHandler: KeyHandler)
+  + setDefaultValues(): void
+  + getCharacterImage(): void
+  + update(): void
+  - changeSpriteFrame(sprite: int): void
+  + draw(g2: Graphics2D): void
+}
+
+Transportation <|-- Walk
+Transportation <|-- RideHorse
+Transportation <|-- Sail
+Transportation <|-- FlyingCarpet
+
+@enduml
