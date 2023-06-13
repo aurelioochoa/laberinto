@@ -4,7 +4,7 @@
 </p>
 <hr>
    <h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, Welcome to the Maze Challange </h1>
-<h3 align="center">Ingeniería Informática - Programación II| Universidad Europea del Atlántico</h3>
+<h3 align="center">Ingeniería Informática - Programación II | Universidad Europea del Atlántico</h3>
 <p align="center">
  
  
@@ -32,7 +32,6 @@
 | Day and Night Cycle    | The system includes a realistic day and night cycle, with corresponding changes in the visibility and atmosphere of the maze.                  |
 | Tool Utilization       | The player can utilize helpful tools available within the maze to overcome challenges and gain advantages, such as using a flying carpet to traverse mountains. |
 | Maze Visualization     | The system provides a graphical representation of the maze, displaying different terrains and obstacles to enhance the player's immersion and gameplay experience. |
-| Time Limit             | The challenge is time-limited, adding an additional layer of excitement and urgency to finding the maze exit.                                  |
 
 ## Class Diagram
 <p align="center">
@@ -46,7 +45,7 @@
 ```
 3. Run the solution using the java interpreter with the following command in your terminal:
 ```bash
-  java -cp ../out/production/
+  java -cp ../out/production/laberinto
 ```
 
 ## Authors
