@@ -1,9 +1,9 @@
 
    <p align="center">
-  <img src="https://github.com/Mau-1999/Maura-martinez99/blob/main/LaberintoCyber.jpg" height="200"/>
+  <img src="https://github.com/Mau-1999/Maura-martinez99/blob/main/LaberintoCyber.jpg" />
 </p>
 <hr>
-<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, Bienvenido al Juego del Laberinto </h1>
+   <h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, Welcome to the Maze Challange </h1>
 <h3 align="center">Ingeniería Informática - Programación II| Universidad Europea del Atlántico</h3>
 <p align="center">
  
