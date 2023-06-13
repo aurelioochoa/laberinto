@@ -35,8 +35,9 @@
 | Time Limit             | The challenge is time-limited, adding an additional layer of excitement and urgency to finding the maze exit.                                  |
 
 ## Class Diagram
-Here is the UML class diagram that represents the implementation of the solution. (Attach your class diagram here).
-
+<p align="center">
+<img src="https://github.com/aurelioochoa/laberinto/blob/mauraMartinez/Graficos/Class_Diagram.png"/>
+   </p>
 ## How to run the solution  
 1. Go to the [src](src) folder.
 2. Compile the solution using the java compiler with the following command in your terminal:
