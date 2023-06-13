@@ -34,7 +34,7 @@
 
 ## Class Diagram
 <p align="center">
-<img src="https://github.com/aurelioochoa/laberinto/blob/mauraMartinez/Graficos/Class_Diagram.png"/>
+<img src="https://github.com/aurelioochoa/laberinto/blob/main/resources/Class-Diagram.png"/>
    </p>
 ## How to run the solution  
 1. Go to the [src](src) folder.
